@@ -25,7 +25,8 @@ for movie in movie_section:
     href_splitted = href.split('=')
     code = href_splitted[-1]
 
-    data_dict[title] = code
+    data_dict['title'] = title
+    data_dict['code'] = code
 
     movie_data.append(data_dict)
 
